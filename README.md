@@ -11,13 +11,14 @@ Content in the cards was rendered regarding API response. URL was provided (`URL
 All content wrapped into `div` tag with `app` id in the `index.html` file. All content generates in the  `src/index.js`
 file. There are two functions: `getFromAPI` and `generateHtml`.
 
+### getFromAPI
 `getFromAPI` fetches the data from the URL which was provided, using browser's own fetch API  and returns two promises 
 and invoke callback function with response data.
 
+### generateHtml
 `generateHtml` function is basically generating HTML tags and content using response array from the provided API call.
 
 Content is generated using vanilla js methods.
-
 
 ## Clone repository
 
