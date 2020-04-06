@@ -1,0 +1,36 @@
+@import url("https://assets.ubuntu.com/v1/vanilla-framework-version-2.7.0.min.css");
+
+
+#app {
+  padding: 32px;
+}
+
+.article-container {
+  padding: 0 8px;
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75), 0px -5px 0px 0px #77216F;
+}
+
+.article-header {
+  padding-top: 8px;
+}
+
+.article-content {
+  border-top: 1px dotted lightgrey;
+  border-bottom: 1px dotted lightgrey;
+  padding: 8px;
+}
+
+.image-wrapper {
+  height: 150px;
+  width: 100%;
+}
+
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
